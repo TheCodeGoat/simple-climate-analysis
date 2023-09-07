@@ -29,8 +29,8 @@ for element in data:
     if year == current_year:
         year_data[year].append(element)
     else:
-        #print(current_year, ": ", len(year_data[str(current_year)]))
-        print(len(year_data[str(current_year)]))
+        print(current_year, ": ", len(year_data[str(current_year)]))
+        #print(len(year_data[str(current_year)]))
         sum += len(year_data[str(current_year)])
         count += 1
         current_year = year
